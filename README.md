@@ -1,8 +1,9 @@
-#📈 Portfolio Optimization in Python
+
+# 📈 Portfolio Optimization in Python
 
 
 ## 🔧 Objective
-This project builds a foundational **Mean-Variance Portfolio Optimization Model** using real financial data. The goal is to minimize portfolio risk for a target return or maximize the Sharpe Ratio — a core principle of modern quantitative finance.
+This project builds a foundational **Mean-Variance Portfolio Optimization Model** using real financial data from S&P 500 companies. The goal is to minimize portfolio risk for a target return or maximize the Sharpe Ratio — a core principle of modern quantitative finance.
 
 ## 🚀 Why It Matters
 - Portfolio optimization is widely used in **hedge funds, asset management**, and **fintech platforms** to **balance return and risk**.
