@@ -22,16 +22,6 @@ This project builds a foundational **Mean-Variance Portfolio Optimization Model*
 - 🛠️ `scipy.optimize.minimize` with custom objective functions  
 - 🖼️ Visualizations with **annotations and efficient frontier** highlighting  
 
-
-## 📸 Visual Preview
-
-*(Optional — add an image of your Efficient Frontier chart)*  
-
-yaml
-Copy
-Edit
-> Tip: Store images in an `/assets` folder and use relative links.
-
 ---
 
 ## 📁 Data Source
@@ -42,8 +32,24 @@ All financial data used in this project was sourced from [Yahoo Finance](https:/
 
 ## 📁 Repo Structure
 
-```bash
-├── portfolio_optimization.ipynb    # Main Jupyter notebook with code and visualizations
-├── requirements.txt                # Python dependencies
-├── data/                           # Historical price or return data (if included)
-├── assets/                         # Plots or figures
+│
+├── 📄 README.md                # Project overview, visuals, and how-to
+├── 📄 requirements.txt         # List of Python dependencies (e.g., numpy, pandas, yfinance)
+├── 📄 .gitignore               # Files to ignore in Git (e.g., .ipynb_checkpoints/)
+│
+├── 📁 data/                    # Raw and/or cleaned datasets
+│   └── historical_prices.csv   # (Optional) Local copy of Yahoo Finance data
+│
+├── 📁 notebooks/               # Jupyter notebooks for experiments, EDA, and core analysis
+│   └── mean_variance_optimization.ipynb
+│
+├── 📁 scripts/                 # Python scripts (for modular, reusable code)
+│   ├── optimizer.py            # Functions for Sharpe Ratio, risk, returns, etc.
+│   └── utils.py                # Helper functions (e.g., for plotting or data handling)
+│
+├── 📁 images/                  # Plots and visuals for README or presentation
+│   ├── efficient_frontier.png
+│   └── sharpe_ratio_plot.png
+│
+└── 📁 results/                 # Output files, plots, logs, or final portfolios
+    └── optimized_portfolio.json
