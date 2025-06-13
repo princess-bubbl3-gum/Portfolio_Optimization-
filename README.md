@@ -31,3 +31,8 @@ All financial data used in this project was sourced from [Yahoo Finance](https:/
 ## Additional Info
 
 This project is currently being worked on - I plan to experiment with morre techniques such as Black-LitterMan, Backtesting of Historical Data etc.
+
+---
+👩🏾‍💻 Author
+Divine U. Efiok
+Computer Engineering + Math @ Texas A&M University
